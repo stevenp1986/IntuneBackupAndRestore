@@ -47,4 +47,5 @@ function Start-IntuneBackup() {
     Invoke-IntuneBackupAppProtectionPolicy -Path $Path
     Invoke-IntuneBackupDeviceHealthScript -Path $Path
     Invoke-IntuneBackupDeviceHealthScriptAssignment -Path $Path
+    Invoke-IntuneBackupdeviceshellScript -Path $Path
 }
